@@ -1,3 +1,3 @@
-# LFA Proiect 3
-# Inplemenarea in Python a algoritmului ce aduce o gramatica independenta de context in forma normala Chomsky
+# LFA Proiect 2
+Implemenarea în Python a algoritmului ce aduce o gramatică independentă de context în formă normală Chomsky
  
