@@ -1,0 +1,26 @@
+CREATE TABLE `angajat` (
+  `id` int NOT NULL,
+  `nume` varchar(255) DEFAULT NULL,
+  `pozitie` varchar(255) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
+
+CREATE TABLE `distribuitor` (
+  `nume` varchar(255) DEFAULT NULL,
+  `adresa` varchar(255) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
+
+CREATE TABLE `factura` (
+  `numarFactura` int DEFAULT NULL,
+  `produse` varchar(255) DEFAULT NULL,
+  `valoare` double DEFAULT NULL,
+  `dataEmitere` varchar(255) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
+
+CREATE TABLE `produs` (
+  `nume` varchar(255) DEFAULT NULL,
+  `cod` int NOT NULL,
+  `categorie` varchar(255) DEFAULT NULL,
+  `cantitate` int DEFAULT NULL,
+  `pret` double DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
+
